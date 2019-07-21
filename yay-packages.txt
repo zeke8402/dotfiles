@@ -1,0 +1,1 @@
+xst dropbox jetbrains-toolbox nerd-fonts-complete 
