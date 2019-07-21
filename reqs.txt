@@ -1,0 +1,7 @@
+tmux
+stow
+git
+wget
+curl
+dropbox
+jetbrains-toolbox
