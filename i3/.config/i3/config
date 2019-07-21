@@ -21,11 +21,11 @@ client.placeholder      $grey $bg $bg    $bg   $bg
 client.background       $bg
 
 # border & title.. Must be set to border pixel for gaps to work
-for_window [class="^.*"] border pixel 2, title_format "<b> %class >> %title </b>"
+for_window [class="^.*"] border pixel 0, title_format "<b> %class >> %title </b>"
 
 # gaps
 gaps inner 15
-gaps outer 5
+gaps outer 15
 
 # font
 font pango:monospace 11

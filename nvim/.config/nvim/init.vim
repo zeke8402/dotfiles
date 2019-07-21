@@ -19,7 +19,7 @@ call plug#end()
 """ Look & Feel """
 "set background=dark
 "let base16colorspace=256
-"colorscheme base16-ocean
+colorscheme shblah
 highlight Comment cterm=italic
 hi NonText ctermfg=fg
 
@@ -50,7 +50,7 @@ nnoremap j gj
 nnoremap k gk
 
 """ Experimental Features """
-hi StatusLine ctermfg=bg ctermbg=bg
+"hi StatusLine ctermfg=bg ctermbg=bg
 
 """ NERDTree """
 let NERDTreeShowHidden=1
