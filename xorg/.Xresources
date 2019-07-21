@@ -17,6 +17,7 @@
 
 
 ! █▓▒░ color scheme
+!#include "/home/zeke/.xfiles/skyfall.Xcolors"
 #include "/home/zeke/.xfiles/gunmetal.Xcolors"
 
 ! █▓▒░ fonts

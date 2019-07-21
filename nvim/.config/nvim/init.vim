@@ -9,8 +9,8 @@ call plug#begin('~/.local/share/nvim/plugged')
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'kien/ctrlp.vim'
 Plug 'joshdick/onedark.vim'
-Plug 'chriskempson/base16-vim'
 Plug 'ryanoasis/vim-devicons'
+Plug 'etdev/vim-hexcolor'
 Plug 'posva/vim-vue'
 Plug 'w0rp/ale'
 Plug 'junegunn/goyo.vim'
