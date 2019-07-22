@@ -1,10 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
-let g:netrw_dirhist_1='/home/zeke/configs/nvim/.config'
-let g:netrw_dirhist_2='/home/zeke/configs/nvim/.config/nvim'
-let g:netrw_dirhist_3='/home/zeke/configs/nvim'
-let g:netrw_dirhist_4='/home/zeke/.local/share/TIS-100/76561197971153381'
-let g:netrw_dirhist_5='/home/zeke/configs/zsh'
-let g:netrw_dirhist_6='/home/zeke/dotfiles/i3/.config/i3'
-let g:netrw_dirhist_7='/home/zeke/Documents/360/station'
-let g:netrw_dirhist_8='/home/zeke/Documents/360/station/scripts'
+let g:netrw_dirhist_cnt =0
