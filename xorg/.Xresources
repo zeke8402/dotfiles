@@ -18,7 +18,7 @@
 
 ! █▓▒░ color scheme
 !#include "/home/zeke/.xfiles/skyfall.Xcolors"
-#include "/home/zeke/.xfiles/gunmetal.Xcolors"
+#include "/home/zeke/.xfiles/archlabs.Xcolors"
 
 ! █▓▒░ fonts
 urxvt*font: xft: Iosevka Nerd Font Mono:style=Medium:size=14
