@@ -21,8 +21,8 @@
 #include "/home/zeke/.xfiles/archlabs.Xcolors"
 
 ! █▓▒░ fonts
-urxvt*font: xft: Iosevka Nerd Font Mono:style=Medium:size=14
-st.font: Iosevka Nerd Font Mono:style=Medium:pixelsize=14:antialias=true:autohint=true
+urxvt*font: xft: Iosevka Nerd Font Mono:style=Medium:size=16
+st.font: Iosevka Nerd Font Mono:style=Medium:pixelsize=16:antialias=true:autohint=true
 
 
 urxvt*boldFont: 

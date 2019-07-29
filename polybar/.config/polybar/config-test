@@ -65,10 +65,10 @@ font-1 = RobotoMono Nerd Font :antialias=true:size=7;2
 font-2 = RobotoMono Nerd Font :antialias=false:size=15;2
 modules-left = s7 s4 i3 s5 
 modules-center = 
-modules-right =   s4 cpu s1  memory s1  temperature s1  date s5  powermenu s6
+modules-right =   s4 cpu s1  memory s1  date s5  powermenu s6
 
-tray-position = right
-tray-padding = 0
+;tray-position = right
+;tray-padding = 0
 ;tray-background = #0063ff
 
 ;wm-restack = bspwm
@@ -115,16 +115,16 @@ module-margin-right = 0
 
 font-0 = RobotoMono Nerd Font :antialias=true:pixelsize=10;1
 font-1 = RobotoMono Nerd Font:antialias=true:size=4;2
-font-2 = RobotoMono Nerd Font:antialias=false:size=14;2
+font-2 = RobotoMono Nerd Font:antialias=false:size=15;2
 font-3 - RobotoMono Nerd Font:antialias=true:size=18;0
 ; siji
 modules-left = s9 
 modules-center = 
 ; pulseaudio
-modules-right =  s4 spotify s1 pulseaudio s1 wlan  s3 s8
+modules-right =  s4 pulseaudio s1 wlan  s3 s8 
 
 tray-position = right
-tray-padding = 0
+tray-padding = 5
 ;tray-background = #0063ff
 
 ;wm-restack = bspwm

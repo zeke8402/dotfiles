@@ -60,12 +60,17 @@ function switch_to_external {
   su $username -c '
     /usr/bin/xrandr \
       --output eDP1  --off \
-      --output DP2-2 --auto \
-      --output LVDS1 --off \
+      --output DP1 --off \
+      --output DP2 --off \
+      --output DP2-1 --off \
+      --output DP2-2 --primary \
+      --mode 2560x1440 \
+      --pos 0x0 \
+      --rotate normal \
+      --output DP2-3 --off \
       --output HDMI1 --off \
-      --output HDMI2 --off --pos 1680x0 --rotate left \
-      --output HDMI3 --off --pos 0x600 --primary \
-      --output VGA1  --auto \
+      --output HDMI2 --off \
+      --output VIRTUAL1 --off
     '
   # alternative:
   # xrandr --output LVDS1 --off --output HDMI3 --primary --auto --pos 0x0

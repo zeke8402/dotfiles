@@ -2,6 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH="$HOME/.config/composer/vendor/bin:$HOME/bin:$PATH:$HOME/.gem/ruby/2.5.0/bin:$HOME/.config/yarn/global"
 export ZSH="/home/zeke/.oh-my-zsh"
+export TERM=xterm-256color
 
 # Path to your oh-my-zsh installation.
 # export ZSH=/home/zeke/.oh-my-zsh
@@ -17,7 +18,8 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
-source $ZSH/oh-my-zsh.sh
+# source $ZSH/oh-my-zsh.sh
+source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
 
 ##########################################################
 ######                   Aliases                   #######
@@ -37,3 +39,4 @@ alias md="markdown_previewer"
 # X server aliases
 alias xmod="vim ~/.Xresources"
 alias xload="xrdb -load ~/.Xresources"
+alias 360="cd ~/Documents/360"

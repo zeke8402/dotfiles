@@ -1,2 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =0
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/zeke/dotfiles/i3/.config'
+let g:netrw_dirhist_2='/home/zeke/dotfiles/i3/.config/i3'
+let g:netrw_dirhist_3='/home/zeke/dotfiles/i3/.config'
+let g:netrw_dirhist_4='/home/zeke/dotfiles/i3/.config/i3'
+let g:netrw_dirhist_5='/home/zeke/Documents/360/auth-test/app/.git'
+let g:netrw_dirhist_6='/home/zeke/dotfiles/zeke/.config/zeke'

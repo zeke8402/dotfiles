@@ -28,7 +28,7 @@ for_window [class="^.*"] border pixel 0, title_format "<b> %class >> %title </b>
 
 # gaps
 gaps inner 15
-gaps outer 15
+gaps outer 50
 
 # font
 font pango:monospace 11
@@ -92,7 +92,8 @@ bindsym Control+space exec --no-startup-id rofi_run -r
 bindsym $Mod+w          exec --no-startup-id exo-open --launch WebBrowser
 bindsym $Mod+f          exec --no-startup-id exo-open --launch FileManager
 bindsym $Mod+t          exec xst
-bindsym $Mod+Return     exec xst
+bindsym $Mod+Return          exec "$HOME/.config/zeke/i3lock.sh"
+bindsym $Mod+Shift+Return exec "flameshot gui"
 
 # logout script
 bindsym $Mod+x exec --no-startup-id rofi_run -l
