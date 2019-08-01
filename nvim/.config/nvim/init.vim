@@ -14,13 +14,12 @@ Plug 'etdev/vim-hexcolor'
 Plug 'posva/vim-vue'
 Plug 'w0rp/ale'
 Plug 'junegunn/goyo.vim'
+Plug 'dylanaraps/wal.vim'
 call plug#end()
 
 """ Look & Feel """
-"set background=dark
-"let base16colorspace=256
-colorscheme shblah
-highlight Comment cterm=italic
+colorscheme wal
+"highlight Comment cterm=italic
 hi NonText ctermfg=fg
 
 """ Preferences """
@@ -48,6 +47,13 @@ let mapleader = "\<Space>"
 """ Move by Visual Line"""
 nnoremap j gj
 nnoremap k gk
+
+" Enable cursor line position tracking:
+:set cursorline
+"Remove the underline from enabling cursorline:
+:highlight clear CursorLine
+"Set line numbering to red background:
+:highlight CursorLineNR ctermbg=fg
 
 """ Experimental Features """
 "hi StatusLine ctermfg=bg ctermbg=bg

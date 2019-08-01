@@ -26,15 +26,13 @@ source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
 ##########################################################
  
 eval $(thefuck --alias)
-alias station="cd ~/Documents/potenza/station"
+alias work="cd ~/Documents/360"
 
 alias projex="cd ~/Dropbox/projex"
 alias update="sudo pacman -Syu"
-alias notes="cd ~/Dropbox/notes"
-alias potdocs="cd ~/Dropbox/potenza && vim"
-alias worklogs="vim ~/Dropbox/potenza/work-logs"
 alias trapper="cd ~/Dropbox/notes && vim"
 alias md="markdown_previewer"
+alias ts="cd ~/Dropbox/work/360 && vim"
 
 # X server aliases
 alias xmod="vim ~/.Xresources"
