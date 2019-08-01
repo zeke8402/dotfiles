@@ -3,6 +3,9 @@
 # start up apps
 exec --no-startup-id dropbox
 
+# focus follows mouse NEIN!
+focus_follows_mouse no
+
 # Xresources      var      value       fallback
 set_from_resource $bg      background  #19043C
 set_from_resource $fg      foreground  #F1F1F1
@@ -65,6 +68,8 @@ set $Mon2 HDMI2
 exec_always --no-startup-id ~/.config/polybar/launch-i3-polybar.sh
 exec_always --no-startup-id nitrogen --restore
 exec_always --no-startup-id xrdb -load ~/.Xresources
+# exec_always wal -i ~/Dropbox/Pictures/Wallpapers/ultrawide/4rryxdzbktn21.jpg
+exec_always wal -R
 
 # If you have a numpad you may want to enable this
 # exec_always --no-startup-id numlockx on
