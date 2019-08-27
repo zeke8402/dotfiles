@@ -31,7 +31,7 @@ for_window [class="^.*"] border pixel 0, title_format "<b> %class >> %title </b>
 
 # gaps
 gaps inner 15
-gaps outer 50
+gaps outer 15
 
 # font
 font pango:monospace 11
@@ -68,7 +68,6 @@ set $Mon2 HDMI2
 exec_always --no-startup-id ~/.config/polybar/launch-i3-polybar.sh
 exec_always --no-startup-id nitrogen --restore
 exec_always --no-startup-id xrdb -load ~/.Xresources
-# exec_always wal -i ~/Dropbox/Pictures/Wallpapers/ultrawide/4rryxdzbktn21.jpg
 exec_always wal -R
 
 # If you have a numpad you may want to enable this
