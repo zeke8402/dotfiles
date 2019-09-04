@@ -1,0 +1,4 @@
+need to auto install zsh (or check at least)
+install oh-my-zsh
+install yay
+run the yay packages

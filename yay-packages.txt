@@ -1,1 +1,1 @@
-xst dropbox jetbrains-toolbox nerd-fonts-complete tty-clock sl cmatrix thefuck
+xst-git dropbox jetbrains-toolbox nerd-fonts-complete tty-clock sl cmatrix thefuck slack-desktop spotify
