@@ -1,1 +1,1 @@
-xst-git dropbox jetbrains-toolbox nerd-fonts-complete tty-clock sl cmatrix thefuck slack-desktop spotify
+xst-git dropbox jetbrains-toolbox nerd-fonts-complete tty-clock sl cmatrix thefuck slack-desktop spotify zsh-theme-powerlevel9k
