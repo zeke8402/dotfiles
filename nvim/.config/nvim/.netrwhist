@@ -1,2 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =0
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/zeke/dotfiles/local/thinkpad-dock'
+let g:netrw_dirhist_2='/home/zeke/dotfiles/polybar/.config/polybar'
+let g:netrw_dirhist_3='/home/zeke/dotfiles/i3/.config/i3'

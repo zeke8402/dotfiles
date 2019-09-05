@@ -1,6 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH="$HOME/.config/composer/vendor/bin:$HOME/bin:$PATH:$HOME/.gem/ruby/2.5.0/bin:$HOME/.config/yarn/global"
+export PATH="$HOME/.config/composer/vendor/bin:$HOME/bin:$PATH:$HOME/.gem/ruby/2.5.0/bin:$HOME/.config/yarn/global:$HOME/.npm-global/bin"
 export ZSH="/home/zeke/.oh-my-zsh"
 export TERM=xterm-256color
 

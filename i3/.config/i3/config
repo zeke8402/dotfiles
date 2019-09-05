@@ -65,7 +65,7 @@ set $Mon2 HDMI2
 
 # run with reload
 # exec_always --no-startup-id al-polybar-session
-exec_always --no-startup-id ~/.config/polybar/launch-i3-polybar.sh
+exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec_always --no-startup-id nitrogen --restore
 exec_always --no-startup-id xrdb -load ~/.Xresources
 exec_always wal -R

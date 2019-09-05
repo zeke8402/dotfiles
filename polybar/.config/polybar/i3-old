@@ -65,7 +65,7 @@ font-1 = RobotoMono Nerd Font :antialias=true:size=7;2
 font-2 = RobotoMono Nerd Font :antialias=false:size=15;2
 modules-left = s7 s4 i3 s5 
 modules-center = 
-modules-right =   s4 cpu s1  memory s1  date s5  powermenu s6
+modules-right =   s4 pulseaudio s1 cpu s1 memory s1  date s3
 
 ;tray-position = right
 ;tray-padding = 0
@@ -139,9 +139,6 @@ tray-padding = 5
 
 cursor-click = pointer
 cursor-scroll = ns-resize
-
-
-
 
 [module/xwindow]
 type = internal/xwindow
@@ -457,7 +454,7 @@ label-muted ="婢     %{T2}�
 label-muted-foreground = ${colors.background}
 format-muted-background = ${colors.primary}
 
-bar-volume-width = 21
+bar-volume-width = 15
 bar-volume-foreground-0 = ${colors.background}
 ;bar-volume-foreground-1 = #55aa55
 ;bar-volume-foreground-2 = #55aa55
